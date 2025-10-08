@@ -1,15 +1,24 @@
 {
-  "name": "backend",
+  "name": "todo-backend",
   "version": "1.0.0",
+  "description": "A simple MERN stack TODO application backend with Express.js and MongoDB",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "dev": "node --watch server.js",
     "seed": "node seed.js"
   },
+  "keywords": ["todo", "mern", "express", "mongodb", "rest-api"],
+  "author": "keshavagr273",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^4.19.2",
     "mongoose": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
